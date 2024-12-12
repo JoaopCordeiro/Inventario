@@ -1,0 +1,56 @@
+package inventory;
+public class produto4 {
+
+private int itemNumber; 
+private String name; 
+private int qtyInStock; 
+private double price; 
+
+public produto4()
+{
+}
+
+public produto4(int number, String name, int qty, double price)
+{
+this.itemNumber = number;
+this.name = name;
+this.qtyInStock = qty;
+this.price = price;
+}
+
+public int getItemNumber() {
+return itemNumber;
+}
+
+public void setItemNumber(int itemNumber) {
+this.itemNumber = itemNumber;
+}
+public String getName() {
+return name;
+}
+public void setName(String name) {
+this.name = name;
+}
+public int getQtyInStock() {
+return qtyInStock;
+}
+public void setQtyInStock(int qtyInStock) {
+this.qtyInStock = qtyInStock;
+}
+
+
+
+public double getPrice() {
+return price;
+}
+public void setPrice(double price) {
+this.price = price;
+}
+public String toString()
+{
+return "\n\nItem Number : " + this.itemNumber
++ "\nName : " + this.name
++ "\nQuantity in stock: " + this.qtyInStock
++ "\nPrice : " + this.price;
+}
+}
